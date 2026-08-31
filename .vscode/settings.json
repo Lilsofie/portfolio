@@ -1,0 +1,12 @@
+{
+  // Tailwind v4 uses at-rules (@theme, @apply, @import "tailwindcss") that the
+  // editor's built-in CSS validator doesn't recognise. They are valid and
+  // compile correctly — silence the false "Unknown at rule" warnings.
+  "css.lint.unknownAtRules": "ignore",
+  "scss.lint.unknownAtRules": "ignore",
+  "less.lint.unknownAtRules": "ignore",
+
+  // Prefer the workspace TypeScript so editor diagnostics match `tsc`/`next build`.
+  "typescript.tsdk": "node_modules/typescript/lib",
+  "typescript.enablePromptUseWorkspaceTsdk": true
+}
