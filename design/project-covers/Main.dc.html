@@ -1,0 +1,107 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Faustina:wght@400;500;600&family=Inter:wght@400;500&display=swap">
+  <style>
+    body { margin: 0; font-family: Inter, system-ui, sans-serif; background: #0b0a09; }
+    a { color: #b8b0a2; } a:hover { color: #ece6da; }
+    .meta { font-size: 9.5px; letter-spacing: .2em; text-transform: uppercase; }
+    .serif { font-family: Faustina, Georgia, serif; }
+    .frame { background: rgba(255,255,255,.55); border: 1px solid rgba(60,48,34,.18);
+      border-radius: 2px; overflow: hidden; }
+  </style>
+</helmet>
+<div style="padding: 40px; display: flex; flex-direction: column; gap: 26px;">
+  <div style="display: flex; flex-direction: column; gap: 6px;">
+    <span class="meta" style="color: #d9c7a8;">Project covers</span>
+    <span style="color: rgba(236,230,218,.55); font-size: 13px; line-height: 1.5; max-width: 62ch;">
+      One drawing per project, taken from what that project actually does &mdash; not a browser
+      window repeated eight times. Same frame, stroke weight and palette throughout, so they read
+      as a set on the page.
+    </span>
+  </div>
+  <div style="display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 30px;">
+    <div style="display: flex; flex-direction: column; gap: 10px;">
+      <div class="frame" style="aspect-ratio: 16 / 10;"><svg viewBox="0 0 400 250" width="100%" height="100%" style="display:block"><rect x="96" y="40" width="208" height="172" rx="2" fill="#f7f2e9" stroke="rgba(60,48,34,.22)" stroke-width="1"/><path d="M96 66 H304" fill="none" stroke="rgba(60,48,34,.14)" stroke-width="1"/><text x="110" y="58" text-anchor="start" font-family="Inter, sans-serif" font-size="7.5" letter-spacing="1.5" fill="#6f6960">SCHEDULE</text><rect x="112" y="78" width="118" height="34" rx="2" fill="#d9c7a8" stroke="rgba(60,48,34,.22)" stroke-width="1"/><rect x="112" y="118" width="118" height="26" rx="2" fill="#f3ede2" stroke="rgba(60,48,34,.22)" stroke-width="1"/><rect x="112" y="150" width="118" height="44" rx="2" fill="#2f2f2b" stroke="#2f2f2b" stroke-width="1"/><rect x="112" y="200" width="118" height="22" rx="2" fill="#f3ede2" stroke="rgba(60,48,34,.22)" stroke-width="1"/><path d="M240 95.0 H288" fill="none" stroke="rgba(60,48,34,.14)" stroke-width="1"/><path d="M240 131.0 H288" fill="none" stroke="rgba(60,48,34,.14)" stroke-width="1"/><path d="M240 172.0 H288" fill="none" stroke="rgba(60,48,34,.14)" stroke-width="1"/><path d="M240 211.0 H288" fill="none" stroke="rgba(60,48,34,.14)" stroke-width="1"/><path d="M104 78 H110" fill="none" stroke="rgba(60,48,34,.22)" stroke-width="1"/><path d="M104 122 H110" fill="none" stroke="rgba(60,48,34,.22)" stroke-width="1"/><path d="M104 166 H110" fill="none" stroke="rgba(60,48,34,.22)" stroke-width="1"/><path d="M104 210 H110" fill="none" stroke="rgba(60,48,34,.22)" stroke-width="1"/></svg></div>
+      <div style="display: flex; flex-direction: column; gap: 3px;">
+        <div style="display: flex; justify-content: space-between; gap: 12px;">
+          <span class="meta" style="color: #6f6960;">Exhibit 02</span>
+          <span class="meta" style="color: #6f6960;">Event Platform</span>
+        </div>
+        <span class="serif" style="color: #ece6da; font-size: 16px;">Hack the Valley Website</span>
+      </div>
+    </div>
+    <div style="display: flex; flex-direction: column; gap: 10px;">
+      <div class="frame" style="aspect-ratio: 16 / 10;"><svg viewBox="0 0 400 250" width="100%" height="100%" style="display:block"><path d="M76 76 L128 52" fill="none" stroke="rgba(60,48,34,.14)" stroke-width="1"/><path d="M76 76 L60 138" fill="none" stroke="rgba(60,48,34,.14)" stroke-width="1"/><path d="M128 52 L126 122" fill="none" stroke="rgba(60,48,34,.14)" stroke-width="1"/><path d="M60 138 L126 122" fill="none" stroke="rgba(60,48,34,.14)" stroke-width="1"/><path d="M60 138 L92 190" fill="none" stroke="rgba(60,48,34,.14)" stroke-width="1"/><path d="M126 122 L150 176" fill="none" stroke="rgba(60,48,34,.14)" stroke-width="1"/><path d="M92 190 L150 176" fill="none" stroke="rgba(60,48,34,.14)" stroke-width="1"/><circle cx="76" cy="76" r="5" fill="#f7f2e9" stroke="rgba(60,48,34,.22)" stroke-width="1.2"/><circle cx="128" cy="52" r="7" fill="#f7f2e9" stroke="#2f2f2b" stroke-width="1.2"/><circle cx="60" cy="138" r="5" fill="#f7f2e9" stroke="rgba(60,48,34,.22)" stroke-width="1.2"/><circle cx="126" cy="122" r="7" fill="#f7f2e9" stroke="#2f2f2b" stroke-width="1.2"/><circle cx="92" cy="190" r="5" fill="#f7f2e9" stroke="rgba(60,48,34,.22)" stroke-width="1.2"/><circle cx="150" cy="176" r="5" fill="#f7f2e9" stroke="rgba(60,48,34,.22)" stroke-width="1.2"/><text x="60" y="216" text-anchor="start" font-family="Inter, sans-serif" font-size="7.5" letter-spacing="1.5" fill="#6f6960">5,000+ RECORDS</text><path d="M182 122 H214" fill="none" stroke="#2f2f2b" stroke-width="1.2"/><path d="M208 117 L214 122 L208 127" fill="none" stroke="#2f2f2b" stroke-width="1.2"/><rect x="232" y="62" width="116" height="22" rx="2" fill="#2f2f2b" stroke="#2f2f2b" stroke-width="1"/><text x="356" y="77" text-anchor="start" font-family="Inter, sans-serif" font-size="7" letter-spacing="1.5" fill="#6f6960">01</text><rect x="232" y="96" width="92" height="22" rx="2" fill="#f3ede2" stroke="rgba(60,48,34,.22)" stroke-width="1"/><text x="332" y="111" text-anchor="start" font-family="Inter, sans-serif" font-size="7" letter-spacing="1.5" fill="#6f6960">02</text><rect x="232" y="130" width="74" height="22" rx="2" fill="#f3ede2" stroke="rgba(60,48,34,.22)" stroke-width="1"/><text x="314" y="145" text-anchor="start" font-family="Inter, sans-serif" font-size="7" letter-spacing="1.5" fill="#6f6960">03</text><rect x="232" y="164" width="58" height="22" rx="2" fill="#f3ede2" stroke="rgba(60,48,34,.22)" stroke-width="1"/><text x="298" y="179" text-anchor="start" font-family="Inter, sans-serif" font-size="7" letter-spacing="1.5" fill="#6f6960">04</text><text x="232" y="216" text-anchor="start" font-family="Inter, sans-serif" font-size="7.5" letter-spacing="1.5" fill="#6f6960">RANKED</text></svg></div>
+      <div style="display: flex; flex-direction: column; gap: 3px;">
+        <div style="display: flex; justify-content: space-between; gap: 12px;">
+          <span class="meta" style="color: #6f6960;">Exhibit 03</span>
+          <span class="meta" style="color: #6f6960;">Information Retrieval</span>
+        </div>
+        <span class="serif" style="color: #ece6da; font-size: 16px;">Literature Search Engine</span>
+      </div>
+    </div>
+    <div style="display: flex; flex-direction: column; gap: 10px;">
+      <div class="frame" style="aspect-ratio: 16 / 10;"><svg viewBox="0 0 400 250" width="100%" height="100%" style="display:block"><rect x="40" y="44" width="62" height="22" rx="2" fill="#f7f2e9" stroke="rgba(60,48,34,.14)" stroke-width="1"/><path d="M102 55 C 150 55, 158 125, 196 125" fill="none" stroke="rgba(60,48,34,.22)" stroke-width="1"/><rect x="40" y="78" width="62" height="22" rx="2" fill="#f7f2e9" stroke="rgba(60,48,34,.14)" stroke-width="1"/><path d="M102 89 C 150 89, 158 125, 196 125" fill="none" stroke="rgba(60,48,34,.22)" stroke-width="1"/><rect x="40" y="112" width="62" height="22" rx="2" fill="#f7f2e9" stroke="rgba(60,48,34,.14)" stroke-width="1"/><path d="M102 123 C 150 123, 158 125, 196 125" fill="none" stroke="rgba(60,48,34,.22)" stroke-width="1"/><rect x="40" y="146" width="62" height="22" rx="2" fill="#f7f2e9" stroke="rgba(60,48,34,.14)" stroke-width="1"/><path d="M102 157 C 150 157, 158 125, 196 125" fill="none" stroke="rgba(60,48,34,.22)" stroke-width="1"/><rect x="40" y="180" width="62" height="22" rx="2" fill="#f7f2e9" stroke="rgba(60,48,34,.14)" stroke-width="1"/><path d="M102 191 C 150 191, 158 125, 196 125" fill="none" stroke="rgba(60,48,34,.22)" stroke-width="1"/><text x="40" y="226" text-anchor="start" font-family="Inter, sans-serif" font-size="7.5" letter-spacing="1.5" fill="#6f6960">FIVE APIs</text><rect x="196" y="56" width="164" height="138" rx="2" fill="#f7f2e9" stroke="#2f2f2b" stroke-width="1.2"/><path d="M196 84 H360" fill="none" stroke="rgba(60,48,34,.22)" stroke-width="1"/><text x="210" y="76" text-anchor="start" font-family="Inter, sans-serif" font-size="7.5" letter-spacing="1.5" fill="#33322f">INVESTIGATION</text><rect x="210" y="98" width="60" height="60" rx="2" fill="#2f2f2b" stroke="#2f2f2b" stroke-width="1"/><rect x="282" y="98" width="66" height="10" rx="1" fill="#f3ede2" stroke="rgba(60,48,34,.14)" stroke-width="1"/><rect x="282" y="120" width="52" height="10" rx="1" fill="#f3ede2" stroke="rgba(60,48,34,.14)" stroke-width="1"/><rect x="282" y="142" width="74" height="10" rx="1" fill="#f3ede2" stroke="rgba(60,48,34,.14)" stroke-width="1"/><path d="M210 172 H346" fill="none" stroke="rgba(60,48,34,.14)" stroke-width="1"/></svg></div>
+      <div style="display: flex; flex-direction: column; gap: 3px;">
+        <div style="display: flex; justify-content: space-between; gap: 12px;">
+          <span class="meta" style="color: #6f6960;">Exhibit 04</span>
+          <span class="meta" style="color: #6f6960;">Cybersecurity Tooling</span>
+        </div>
+        <span class="serif" style="color: #ece6da; font-size: 16px;">IP, Domain &amp; URL Analysis</span>
+      </div>
+    </div>
+    <div style="display: flex; flex-direction: column; gap: 10px;">
+      <div class="frame" style="aspect-ratio: 16 / 10;"><svg viewBox="0 0 400 250" width="100%" height="100%" style="display:block"><rect x="132" y="34" width="104" height="182" rx="8" fill="#f7f2e9" stroke="#2f2f2b" stroke-width="1.2"/><path d="M168 44 H200" fill="none" stroke="rgba(60,48,34,.22)" stroke-width="1.4"/><text x="146" y="74" text-anchor="start" font-family="Inter, sans-serif" font-size="6.4" letter-spacing="1.5" fill="#6f6960">ANNOUNCEMENTS</text><rect x="146" y="86" width="76" height="30" rx="2" fill="#2f2f2b" stroke="#2f2f2b" stroke-width="1"/><path d="M154 97 H200" fill="none" stroke="#f1ece1" stroke-width="1.2"/><path d="M154 106 H182" fill="none" stroke="rgba(241,236,225,.5)" stroke-width="1"/><rect x="146" y="124" width="76" height="30" rx="2" fill="#f3ede2" stroke="rgba(60,48,34,.22)" stroke-width="1"/><path d="M154 135 H190" fill="none" stroke="rgba(60,48,34,.22)" stroke-width="1.2"/><path d="M154 144 H172" fill="none" stroke="rgba(60,48,34,.14)" stroke-width="1"/><rect x="146" y="162" width="76" height="30" rx="2" fill="#f3ede2" stroke="rgba(60,48,34,.22)" stroke-width="1"/><path d="M154 173 H190" fill="none" stroke="rgba(60,48,34,.22)" stroke-width="1.2"/><path d="M154 182 H172" fill="none" stroke="rgba(60,48,34,.14)" stroke-width="1"/><path d="M266 96 l6 6 l12 -12" fill="none" stroke="#2f2f2b" stroke-width="1.5" stroke-linecap="round"/><path d="M294 98 H340" fill="none" stroke="rgba(60,48,34,.14)" stroke-width="1"/><path d="M266 130 l6 6 l12 -12" fill="none" stroke="#2f2f2b" stroke-width="1.5" stroke-linecap="round"/><path d="M294 132 H340" fill="none" stroke="rgba(60,48,34,.14)" stroke-width="1"/><path d="M266 164 l6 6 l12 -12" fill="none" stroke="#2f2f2b" stroke-width="1.5" stroke-linecap="round"/><path d="M294 166 H340" fill="none" stroke="rgba(60,48,34,.14)" stroke-width="1"/><text x="266" y="216" text-anchor="start" font-family="Inter, sans-serif" font-size="7.5" letter-spacing="1.5" fill="#6f6960">TESTED</text></svg></div>
+      <div style="display: flex; flex-direction: column; gap: 3px;">
+        <div style="display: flex; justify-content: space-between; gap: 12px;">
+          <span class="meta" style="color: #6f6960;">Exhibit 05</span>
+          <span class="meta" style="color: #6f6960;">Android</span>
+        </div>
+        <span class="serif" style="color: #ece6da; font-size: 16px;">Department Comms App</span>
+      </div>
+    </div>
+    <div style="display: flex; flex-direction: column; gap: 10px;">
+      <div class="frame" style="aspect-ratio: 16 / 10;"><svg viewBox="0 0 400 250" width="100%" height="100%" style="display:block"><g transform="rotate(-6 98 114)"><rect x="56" y="74" width="84" height="80" rx="2" fill="#f7f2e9" stroke="rgba(60,48,34,.22)" stroke-width="1"/><path d="M56 94 H140" fill="none" stroke="rgba(60,48,34,.14)" stroke-width="1"/><path d="M66 108 H112" fill="none" stroke="rgba(60,48,34,.14)" stroke-width="1"/><path d="M66 122 H112" fill="none" stroke="rgba(60,48,34,.14)" stroke-width="1"/><path d="M66 136 H112" fill="none" stroke="rgba(60,48,34,.14)" stroke-width="1"/></g><g transform="rotate(3 134 98)"><rect x="92" y="58" width="84" height="80" rx="2" fill="#f7f2e9" stroke="rgba(60,48,34,.22)" stroke-width="1"/><path d="M92 78 H176" fill="none" stroke="rgba(60,48,34,.14)" stroke-width="1"/><path d="M102 92 H148" fill="none" stroke="rgba(60,48,34,.14)" stroke-width="1"/><path d="M102 106 H148" fill="none" stroke="rgba(60,48,34,.14)" stroke-width="1"/><path d="M102 120 H148" fill="none" stroke="rgba(60,48,34,.14)" stroke-width="1"/></g><g transform="rotate(-3 170 122)"><rect x="128" y="82" width="84" height="80" rx="2" fill="#f3ede2" stroke="rgba(60,48,34,.22)" stroke-width="1"/><path d="M128 102 H212" fill="none" stroke="rgba(60,48,34,.14)" stroke-width="1"/><path d="M138 116 H184" fill="none" stroke="rgba(60,48,34,.14)" stroke-width="1"/><path d="M138 130 H184" fill="none" stroke="rgba(60,48,34,.14)" stroke-width="1"/><path d="M138 144 H184" fill="none" stroke="rgba(60,48,34,.14)" stroke-width="1"/></g><path d="M228 122 H258" fill="none" stroke="#2f2f2b" stroke-width="1.2"/><path d="M252 117 L258 122 L252 127" fill="none" stroke="#2f2f2b" stroke-width="1.2"/><rect x="274" y="74" width="84" height="80" rx="2" fill="#2f2f2b" stroke="#2f2f2b" stroke-width="1"/><path d="M274 94 H358" fill="none" stroke="rgba(241,236,225,.28)" stroke-width="1"/><circle cx="288" cy="108" r="3" fill="rgba(241,236,225,.34)"/><circle cx="306" cy="108" r="3" fill="rgba(241,236,225,.34)"/><circle cx="324" cy="108" r="5" fill="#f1ece1"/><circle cx="342" cy="108" r="3" fill="rgba(241,236,225,.34)"/><circle cx="288" cy="126" r="3" fill="rgba(241,236,225,.34)"/><circle cx="306" cy="126" r="3" fill="rgba(241,236,225,.34)"/><circle cx="324" cy="126" r="3" fill="rgba(241,236,225,.34)"/><circle cx="342" cy="126" r="3" fill="rgba(241,236,225,.34)"/><text x="56" y="190" text-anchor="start" font-family="Inter, sans-serif" font-size="7.5" letter-spacing="1.5" fill="#6f6960">SEPARATE PLANS</text><text x="274" y="190" text-anchor="start" font-family="Inter, sans-serif" font-size="7.5" letter-spacing="1.5" fill="#33322f">ONE DATE</text></svg></div>
+      <div style="display: flex; flex-direction: column; gap: 3px;">
+        <div style="display: flex; justify-content: space-between; gap: 12px;">
+          <span class="meta" style="color: #6f6960;">Exhibit 06</span>
+          <span class="meta" style="color: #6f6960;">Mobile App</span>
+        </div>
+        <span class="serif" style="color: #ece6da; font-size: 16px;">Eventful</span>
+      </div>
+    </div>
+    <div style="display: flex; flex-direction: column; gap: 10px;">
+      <div class="frame" style="aspect-ratio: 16 / 10;"><svg viewBox="0 0 400 250" width="100%" height="100%" style="display:block"><path d="M40 156 H360" fill="none" stroke="rgba(60,48,34,.14)" stroke-width="1"/><circle cx="200" cy="112" r="26" fill="none" stroke="#2f2f2b" stroke-width="1.4"/><path d="M236.0 112.0 L244.0 112.0" fill="none" stroke="rgba(60,48,34,.22)" stroke-width="1"/><path d="M225.5 137.5 L231.1 143.1" fill="none" stroke="rgba(60,48,34,.22)" stroke-width="1"/><path d="M200.0 148.0 L200.0 156.0" fill="none" stroke="rgba(60,48,34,.22)" stroke-width="1"/><path d="M174.5 137.5 L168.9 143.1" fill="none" stroke="rgba(60,48,34,.22)" stroke-width="1"/><path d="M164.0 112.0 L156.0 112.0" fill="none" stroke="rgba(60,48,34,.22)" stroke-width="1"/><path d="M174.5 86.5 L168.9 80.9" fill="none" stroke="rgba(60,48,34,.22)" stroke-width="1"/><path d="M200.0 76.0 L200.0 68.0" fill="none" stroke="rgba(60,48,34,.22)" stroke-width="1"/><path d="M225.5 86.5 L231.1 80.9" fill="none" stroke="rgba(60,48,34,.22)" stroke-width="1"/><text x="200" y="186" text-anchor="middle" font-family="Inter, sans-serif" font-size="7.5" letter-spacing="1.5" fill="#6f6960">ONE A DAY</text></svg></div>
+      <div style="display: flex; flex-direction: column; gap: 3px;">
+        <div style="display: flex; justify-content: space-between; gap: 12px;">
+          <span class="meta" style="color: #6f6960;">Exhibit 07</span>
+          <span class="meta" style="color: #6f6960;">Web App</span>
+        </div>
+        <span class="serif" style="color: #ece6da; font-size: 16px;">Not that Deep</span>
+      </div>
+    </div>
+    <div style="display: flex; flex-direction: column; gap: 10px;">
+      <div class="frame" style="aspect-ratio: 16 / 10;"><svg viewBox="0 0 400 250" width="100%" height="100%" style="display:block"><rect x="40" y="36" width="320" height="106" rx="2" fill="#f7f2e9" stroke="rgba(60,48,34,.22)" stroke-width="1"/><path d="M40 58 H360" fill="none" stroke="rgba(60,48,34,.14)" stroke-width="1"/><text x="54" y="51" text-anchor="start" font-family="Inter, sans-serif" font-size="7" letter-spacing="1.5" fill="#6f6960">/PROC</text><text x="54" y="83" text-anchor="start" font-family="Inter, sans-serif" font-size="6.6" letter-spacing="1.5" fill="#6f6960">MEM</text><rect x="104" y="74" width="220" height="11" rx="1" fill="#f3ede2" stroke="rgba(60,48,34,.14)" stroke-width="1"/><rect x="104" y="74" width="158" height="11" rx="1" fill="#2f2f2b" stroke="#2f2f2b" stroke-width="1"/><text x="54" y="105" text-anchor="start" font-family="Inter, sans-serif" font-size="6.6" letter-spacing="1.5" fill="#6f6960">CPU</text><rect x="104" y="96" width="220" height="11" rx="1" fill="#f3ede2" stroke="rgba(60,48,34,.14)" stroke-width="1"/><rect x="104" y="96" width="90" height="11" rx="1" fill="#2f2f2b" stroke="#2f2f2b" stroke-width="1"/><text x="54" y="127" text-anchor="start" font-family="Inter, sans-serif" font-size="6.6" letter-spacing="1.5" fill="#6f6960">CORES</text><rect x="104" y="118" width="220" height="11" rx="1" fill="#f3ede2" stroke="rgba(60,48,34,.14)" stroke-width="1"/><rect x="104" y="118" width="128" height="11" rx="1" fill="#2f2f2b" stroke="#2f2f2b" stroke-width="1"/><path d="M76 168 V186" fill="none" stroke="#2f2f2b" stroke-width="1.2"/><path d="M76 186 H200 M76 186 H76" fill="none" stroke="#2f2f2b" stroke-width="1.2"/><path d="M76 186 V208 M200 186 V208" fill="none" stroke="#2f2f2b" stroke-width="1.2"/><path d="M76 186 H200" fill="none" stroke="#2f2f2b" stroke-width="1.2"/><rect x="50" y="208" width="52" height="22" rx="2" fill="#f3ede2" stroke="rgba(60,48,34,.22)" stroke-width="1"/><rect x="174" y="208" width="52" height="22" rx="2" fill="#f3ede2" stroke="rgba(60,48,34,.22)" stroke-width="1"/><text x="240" y="180" text-anchor="start" font-family="Inter, sans-serif" font-size="7.5" letter-spacing="1.5" fill="#6f6960">FORK</text><text x="240" y="196" text-anchor="start" font-family="Inter, sans-serif" font-size="7.5" letter-spacing="1.5" fill="#6f6960">PIPES</text><text x="240" y="222" text-anchor="start" font-family="Inter, sans-serif" font-size="6.6" letter-spacing="1.5" fill="#6f6960">SIGINT / SIGTSTP</text></svg></div>
+      <div style="display: flex; flex-direction: column; gap: 3px;">
+        <div style="display: flex; justify-content: space-between; gap: 12px;">
+          <span class="meta" style="color: #6f6960;">Exhibit 08</span>
+          <span class="meta" style="color: #6f6960;">Systems Programming</span>
+        </div>
+        <span class="serif" style="color: #ece6da; font-size: 16px;">System Monitoring Tool</span>
+      </div>
+    </div>
+  </div>
+</div>
+</x-dc>
+<script data-dc-script data-props='{"$preview":{"width":800,"height":1500}}'>
+class Component extends DCLogic {}
+</script>
+</body>
+</html>

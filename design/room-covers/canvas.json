@@ -1,0 +1,31 @@
+{
+  "artboards": [
+    { "file": "Main.dc.html",  "x": 0,    "y": 0, "w": 720, "h": 520, "title": "Constellation (rebuilt)" },
+    { "file": "Index.dc.html", "x": 800,  "y": 0, "w": 720, "h": 520, "title": "Index" },
+    { "file": "Range.dc.html", "x": 1600, "y": 0, "w": 720, "h": 520, "title": "Range" }
+  ],
+  "annotations": [
+    {
+      "id": "why-it-was-off",
+      "x": 0,
+      "y": 580,
+      "w": 340,
+      "text": "Why the shipped cover reads as off\n\nIt wasn't your eye. The connector lines were hardcoded from the mockup while the tiles moved, so every endpoint missed its tile centre by 5-8px. The wires looked like they joined the tiles without ever touching them.\n\nAll three directions here compute the connectors from the real centres, so they actually land."
+    },
+    {
+      "id": "content",
+      "x": 380,
+      "y": 580,
+      "w": 340,
+      "text": "What the marks now mean\n\nThe old cover drew 8 of your 13 libraries. These draw one mark per PROJECT - browser, graph, shield, ticket, phone, calendar, cycle, terminal - so the cover is about the eight things you built, not the packages they import.\n\nProminence follows the content order: Personal Website is featured, so it takes the ink tile."
+    },
+    {
+      "id": "pick",
+      "x": 760,
+      "y": 580,
+      "w": 340,
+      "text": "Constellation keeps what you already picked, fixed and re-based on projects. Safest.\n\nIndex is the most museum-native - a checklist of what's in the room. Quietest, and it reads at any size.\n\nRange is the only one that argues something: C to Android is unusual spread. Most memorable, least conventional.\n\nSay which and I'll build it in."
+    }
+  ],
+  "launch": { "view": "canvas" }
+}

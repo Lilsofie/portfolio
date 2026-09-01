@@ -1,0 +1,44 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Faustina:wght@400;500;600&family=Inter:wght@400;500&display=swap">
+  <style>
+    body { margin: 0; font-family: Inter, system-ui, sans-serif; background: #0b0a09; }
+    a { color: #b8b0a2; } a:hover { color: #ece6da; }
+    .meta { font-size: 9.5px; letter-spacing: .2em; text-transform: uppercase; }
+    .serif { font-family: Faustina, Georgia, serif; }
+    .frame { background: rgba(255,255,255,.55); border: 1px solid rgba(60,48,34,.18);
+      border-radius: 2px; overflow: hidden; }
+  </style>
+</helmet>
+<div style="padding: 40px; display: flex; flex-direction: column; gap: 26px;">
+  <div style="display: flex; flex-direction: column; gap: 6px;">
+    <span class="meta" style="color: #d9c7a8;">Featured exhibit &middot; 4:3</span>
+    <span style="color: rgba(236,230,218,.55); font-size: 13px; line-height: 1.5; max-width: 52ch;">
+      The featured slot is a different shape and renders far larger, so it gets its own drawing:
+      the three layers you built, with the five external sources feeding the back end.
+    </span>
+  </div>
+    <div style="display: flex; flex-direction: column; gap: 10px;">
+      <div class="frame" style="aspect-ratio: 4 / 3;"><svg viewBox="0 0 400 300" width="100%" height="100%" style="display:block"><rect x="52" y="60" width="214" height="48" rx="2" fill="#2f2f2b" stroke="#2f2f2b" stroke-width="1"/><text x="66" y="88" text-anchor="start" font-family="Inter, sans-serif" font-size="7.5" letter-spacing="1.5" fill="#f1ece1">UI</text><rect x="52" y="122" width="214" height="48" rx="2" fill="#d9c7a8" stroke="rgba(60,48,34,.22)" stroke-width="1"/><text x="66" y="150" text-anchor="start" font-family="Inter, sans-serif" font-size="7.5" letter-spacing="1.5" fill="#2b2620">FRONT END</text><rect x="52" y="184" width="214" height="48" rx="2" fill="#f3ede2" stroke="rgba(60,48,34,.22)" stroke-width="1"/><text x="66" y="212" text-anchor="start" font-family="Inter, sans-serif" font-size="7.5" letter-spacing="1.5" fill="#33322f">BACK END</text><rect x="310" y="46" width="40" height="20" rx="2" fill="#f7f2e9" stroke="rgba(60,48,34,.14)" stroke-width="1"/><path d="M310 56 C 292 56, 286 208, 266 208" fill="none" stroke="rgba(60,48,34,.22)" stroke-width="1"/><rect x="310" y="80" width="40" height="20" rx="2" fill="#f7f2e9" stroke="rgba(60,48,34,.14)" stroke-width="1"/><path d="M310 90 C 292 90, 286 208, 266 208" fill="none" stroke="rgba(60,48,34,.22)" stroke-width="1"/><rect x="310" y="114" width="40" height="20" rx="2" fill="#f7f2e9" stroke="rgba(60,48,34,.14)" stroke-width="1"/><path d="M310 124 C 292 124, 286 208, 266 208" fill="none" stroke="rgba(60,48,34,.22)" stroke-width="1"/><rect x="310" y="148" width="40" height="20" rx="2" fill="#f7f2e9" stroke="rgba(60,48,34,.14)" stroke-width="1"/><path d="M310 158 C 292 158, 286 208, 266 208" fill="none" stroke="rgba(60,48,34,.22)" stroke-width="1"/><rect x="310" y="182" width="40" height="20" rx="2" fill="#f7f2e9" stroke="rgba(60,48,34,.14)" stroke-width="1"/><path d="M310 192 C 292 192, 286 208, 266 208" fill="none" stroke="rgba(60,48,34,.22)" stroke-width="1"/><text x="310" y="200" text-anchor="start" font-family="Inter, sans-serif" font-size="7" letter-spacing="1.5" fill="#6f6960">FIVE SOURCES</text><path d="M52 246 H266" fill="none" stroke="rgba(60,48,34,.14)" stroke-width="1"/></svg></div>
+      <div style="display: flex; flex-direction: column; gap: 3px;">
+        <div style="display: flex; justify-content: space-between; gap: 12px;">
+          <span class="meta" style="color: #6f6960;">Exhibit 01</span>
+          <span class="meta" style="color: #6f6960;">Full-Stack Web</span>
+        </div>
+        <span class="serif" style="color: #ece6da; font-size: 16px;">Personal Website</span>
+      </div>
+    </div>
+</div>
+</x-dc>
+<script data-dc-script data-props='{"$preview":{"width":560,"height":520}}'>
+class Component extends DCLogic {}
+</script>
+</body>
+</html>

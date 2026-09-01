@@ -1,0 +1,30 @@
+{
+  "artboards": [
+    { "file": "Main.dc.html",     "x": 0,   "y": 0, "w": 800, "h": 1500, "title": "Seven grid covers" },
+    { "file": "Featured.dc.html", "x": 900, "y": 0, "w": 560, "h": 520,  "title": "Featured cover" }
+  ],
+  "annotations": [
+    {
+      "id": "problem",
+      "x": 900,
+      "y": 600,
+      "w": 320,
+      "text": "What these replace\n\nEvery project without a screenshot currently renders the same CSS browser-window placeholder — a title bar, a sidebar, three grey rows. Eight exhibits, one identical picture, and a fake browser says nothing true about a C tool that reads /proc.\n\nThese are drawn per project instead."
+    },
+    {
+      "id": "sources",
+      "x": 900,
+      "y": 880,
+      "w": 320,
+      "text": "Where each drawing comes from\n\n02 schedule blocks — event platform\n03 graph resolving into a ranked list — Cypher over 5,000+ records, custom ranking\n04 five API pills into one dossier — the aggregation you describe\n05 phone feed plus check marks — announcements, JUnit/Mockito\n06 three loose plans into one date — planning and coordination\n07 nearly empty — a daily reminder to enjoy life\n08 /proc meters plus fork and pipes — signals, concurrency\n\nNothing is claimed that the descriptions don't already say."
+    },
+    {
+      "id": "caveat",
+      "x": 900,
+      "y": 1240,
+      "w": 320,
+      "text": "These are covers, not screenshots. A real screenshot beats a drawing every time for anything live — Personal Website and the Analysis Tool both have repos, so if you can grab captures I'd use those and keep the drawings for the ones with nothing to show.\n\nHack the Valley is still the thin one: its description is a single sentence, so its cover is the most generic of the eight."
+    }
+  ],
+  "launch": { "view": "canvas" }
+}

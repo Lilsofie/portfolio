@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="Kate Huang — record">
+  <!-- Minimal vinyl: dark disc, two grooves, warm label. Strong silhouette,
+       no fine text, legible down to 16x16. -->
+  <circle cx="32" cy="32" r="31" fill="#1e1c1a"/>
+  <circle cx="32" cy="32" r="23" fill="none" stroke="#4e4a44" stroke-width="2.5"/>
+  <circle cx="32" cy="32" r="16.5" fill="none" stroke="#4e4a44" stroke-width="2.5"/>
+  <circle cx="32" cy="32" r="11" fill="#e9dfce"/>
+  <circle cx="32" cy="32" r="2.6" fill="#1e1c1a"/>
+</svg>
